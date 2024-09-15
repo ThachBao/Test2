@@ -1,0 +1,290 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 900px;
+    height: 1250px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.Header{
+    height: auto;
+    width: 900px;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.logo button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 12px;
+    background-color: gray;
+    border: 0px;
+}
+.logo button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.logo p a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.button{
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.button button{
+    margin-right: 20px;
+    width: 100px;
+    height: 30px;
+    text-transform: capitalize;
+    background-color: gray;
+    border: 0px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    float: right;
+}
+.link{
+    margin-top: 60px;
+}
+.button .link a{
+    text-decoration: none;
+    box-sizing: border-box;
+    border-right: 1px solid gray;
+    padding-right: 8px;
+    padding-left: 10px;
+    color: blue;
+
+}
+
+.link a:last-child{
+    border-right:none;
+    margin-right: 10px;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    clear: both;
+    margin: 0;padding: 0;
+    background-color: gray;
+    box-sizing: border-box;
+}
+.menu ul{
+    margin: 0; padding: 0;
+    display: flex;
+    list-style: none;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+.menu ul li{
+    padding: 0px 5px;
+    padding-top: 20px;
+    box-sizing: border-box;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    border-right: 3px solid #fff;
+    padding-right: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.menu ul li:last-child a{
+    border-right: none;
+}
+.menu ul li a:hover{
+    background-color: darkgrey;
+}
+.content{
+    width: 98%;
+    margin: 0 auto;
+}
+.content_Left{
+    float: left;
+    width: 67%;
+}
+.content_Left .left-top  h2{
+    font-size: 30px;
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+.content_Left .left-top  .group{
+    margin-top: -20px;
+    display: flex;
+
+}
+.content_Left .left-top .group .image p{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+.content_Left .left-top .group .text{
+    margin-left: 25px;
+}
+
+
+.content_Left .left-top  .group .text h3{
+    margin-top: 12px;
+    color: blue;
+}
+.content_Left .left-top .group .text p{
+    margin-top: 5px;
+    text-align: justify;
+}
+.content_Left .images-repeat{
+    display: flex;
+    margin-left: 15px;
+    border: 1px solid gainsboro;
+    background-color: transparent;
+    padding: 10px;
+}
+.content_Left  .images-repeat p{
+    width: 90px;
+    height: 50px;
+    background-color: gray;
+    margin: 0px 5px;
+}
+
+.content_Right{
+    margin-left: 3%;
+    float: right;
+    width: 30%;
+}
+.content_Right .right-top h2{
+    font-size: 30px;
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+.content_Right .right-top ul{
+    list-style: none;
+    margin-top: -10px;
+    margin-left: -38px;
+}
+.content_Right .right-top ul li{
+    padding: 5px 0px;
+}
+.content_Right .right-top ul a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+.content_Right .right-top ul a:hover{
+    color: red;
+}
+.content_Right .right-bot h2{
+    font-size: 30px;
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+.content_Right .right-bot p{
+    margin-top: -10px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: gray;
+    text-transform: uppercase;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px 0px;
+}
+.content_Left .left-bot{
+    margin-top: 60px;
+}
+.content_Left .left-bot h3{
+    font-size: 30px;
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+.content_Left .left-bot .text1 p{
+    font-size: 18qpx;
+    color: black;
+}
+.content_Left .left-bot .text1 p span{
+    font-size: 18px;
+    color: blue;
+}
+.content_Left .left-bot .text1 p{
+    border-bottom: 2px solid gray;
+    padding: 10px 3px;
+}
+.content_Left .left-bot .text2 p{
+    font-size: 18qpx;
+    color: black;
+}
+.content_Left .left-bot .text2 p span{
+    font-size: 18px;
+    color: blue;
+}
+.content_Left .left-bot .text2 p{
+    border-bottom: 2px solid gray;
+    padding: 10px 3px;
+}
+.content_Left .left-bot .text3 p{
+    font-size: 18qpx;
+    color: black;
+}
+.content_Left .left-bot .text3 p span{
+    font-size: 18px;
+    color: blue;
+}
+.content_Left .left-bot .text3 p{
+    border-bottom: 2px solid gray;
+    padding: 10px 3px;
+}
+.content_Left .bottom-button{
+    margin-bottom: 40px;
+}
+.content_Left .bottom-button button{
+    width: 100%;
+    height: 120px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    background-color: gray;
+}
+.footer{
+    clear: both;
+    border-top: 1px solid gray ;
+
+}
+.footer .footer-left{
+    float: left;
+    margin-left: 15px;
+}
+.footer .footer-right{
+    float: right;
+}
+.footer .footer-right p{
+    text-align: center;
+}
+.footer .footer-right a{
+    text-decoration: none;
+    box-sizing: border-box;
+    border-right: 1px solid gray;
+    padding-right: 8px;
+    padding-left: 10px;
+    color: blue;
+}
+.footer .footer-right a:last-child{
+    border-right: none;
+}
